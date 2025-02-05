@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Importance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        .navbar {
+            background-color: rgb(20, 132, 207);
+            overflow: hidden;
+            padding: 15px 0;
+        }
+        
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        p {
+            font-family: 'Verdana', sans-serif;
+            line-height: 1.6;
+            text-align: justify;
+            color: #555;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image-container img {
+            width: 50%;
+            border-radius: 10px;
+        }
+        
+        .caption {
+            font-style: italic;
+            color: #666;
+        }
+        
+        .button {
+            background-color: #008CBA;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .button:hover {
+            background-color: #005f73;
+        }
+        
+        .table-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 2px;
+            margin-top: 20px;
+            padding: 5px;
+            background-color: rgb(20, 132, 207);
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .table-item {
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        
+        .form-container {
+            display: grid;
+            grid-template-columns: auto  ;
+            margin-bottom: 10px 20px;
+            padding: 20px;
+            border: 4px solid  #008CBA;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            width: 30%;
+            margin:  10px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body style="background-color: lightblue;">
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Games</a>
+        <a href="#">Contact</a>
+    </div>
+    
+    <div class="container">
+        <h1>The Importance of Games</h1>
+        <p>Games play a crucial role in cognitive development, problem-solving, and enhancing creativity. They provide an engaging way to learn new skills, improve hand-eye coordination, and offer relaxation from daily stress.</p>
+        <p>From traditional board games to modern video games, they help in developing social connections, strategic thinking, and teamwork. Playing games in moderation can have positive effects on mental well-being and overall productivity.</p>
+        
+        <div class="image-container">
+            <img src="https://prowellness.childrens.pennstatehealth.org/wp-content/uploads/2023/02/sports-tools-1024x668.jpg" alt="Gaming Importance">
+            <div class="caption">Games enhance creativity, problem-solving, and social skills.</div>
+        </div>
+        
+        <button class="button">Learn More</button>
+        
+        <h2>Game Benefits</h2>
+        <div class="table-container">
+            <div class="table-item"><strong>Cognitive Benefits</strong></div>
+            <div class="table-item"><strong>Social Benefits</strong></div>
+            <div class="table-item"><strong>Health Benefits</strong></div>
+            <div class="table-item">Problem-Solving</div>
+            <div class="table-item">Teamwork</div>
+            <div class="table-item">Stress Relief</div>
+            <div class="table-item">Decision Making</div>
+            <div class="table-item">Communication</div>
+            <div class="table-item">Hand-Eye Coordination</div>
+        </div>
+        
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Emailid" required><br><br>
+                
+                <input type="submit" value="Submit" class="button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
